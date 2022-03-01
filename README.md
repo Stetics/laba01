@@ -1,6 +1,6 @@
 # laba01
 
-Скачивание и распаковка `(wget "ссылка" & tar -xf boost_1_69_0_tar.gz)`
+Скачивание и распаковка `(wget "ссылка" & tar -xf boost_1_69_0.tar.gz)`
  )`
 
 ![image](https://user-images.githubusercontent.com/91694520/155757040-900b25a9-b860-4efb-bad6-6234e87d004d.png)
