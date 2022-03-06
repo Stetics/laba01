@@ -36,5 +36,27 @@
 ![image](https://user-images.githubusercontent.com/91694520/155762486-def64fd7-0070-4a05-8f86-44da64e53fa7.png)
 
 
+8. Компиляция boost `(./bootstrap.sh + ./b2)`
+
+![image](https://user-images.githubusercontent.com/91694520/156928782-33eb7b60-33ed-4bd0-a395-692615fca86d.png)
+
+![image](https://user-images.githubusercontent.com/91694520/156928824-f9fe1d8b-23d2-4d89-883b-5ccc60bb4ef1.png)
+
+
+9. Перенос всех скомпилированных на предыдущем шаге статических библиотек в директорию ~/boost-libs. `( mv stage/lib/ ~/boost-libs
+
+![image](https://user-images.githubusercontent.com/91694520/156929605-3fd25fde-f7cb-4895-96f1-31bb1268ec65.png)
+
+
+10. Подсчёт дискового пространства `(du -a)`
+
+![image](https://user-images.githubusercontent.com/91694520/156930277-436c6f47-94ac-425d-b680-92da0900dc08.png)
+
+
+11. Вывод 10 самых тяжелых файлов в текущей директории `(du -ahx . | sort -rh | head -5)`
+
+![image](https://user-images.githubusercontent.com/91694520/156930387-3924499d-3558-49a3-a4d1-bebe5244f1c2.png)
+
+
 
 
