@@ -31,9 +31,9 @@
 ![image](https://user-images.githubusercontent.com/91694520/155761040-70f1f9d2-b515-4a42-acaa-d5717b32d559.png)
 
 
-7. все файлы содержащие "boost::asio" `(grep -rL "boost::asio")`
+7. все файлы содержащие "boost::asio" `(grep -rl "boost::asio")`
 
-![image](https://user-images.githubusercontent.com/91694520/155762486-def64fd7-0070-4a05-8f86-44da64e53fa7.png)
+![image](https://user-images.githubusercontent.com/91694520/157916815-7acba213-4aca-4fe3-a46f-0249f29e75cd.png)
 
 
 8. Компиляция boost `(./bootstrap.sh + ./b2)`
